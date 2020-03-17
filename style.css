@@ -42,10 +42,12 @@ body {
 
 .menu {
     margin: 0;
+    padding: 0 0 0 55px;
 }
 
 .menu li {
     display: inline-block;
+    width: 20%;
 }
 
 .menu a {
@@ -53,7 +55,7 @@ body {
     padding: 20px;
     text-decoration: none;
     color: #25133d;
-    padding: 20px 60px 20px 15px;
+    padding: 20px 0 20px 0;
 }
 
 .menu a:hover {
@@ -65,17 +67,13 @@ body {
     background-image: url('images/pozadi.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-}
-
-.levy, .pravy {
-    flex: 1 1 50%;
+    position: relative;
 }
 
 .telefon {
-    position: relative;
-    top: 55px;
-    left: 30px;
+    position: absolute;
+    top: 56px;
+    left: 555px;
 }
 
 .appka h1 {
